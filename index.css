@@ -1,0 +1,73 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: black;
+}
+fieldset, img {
+  border:  none;
+  background-color: red;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol, ul {
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+caption, th {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before, q:after {
+  content: '';
+}
+abbr, acronym {
+  border:  none;
+}
+html {
+  height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+body {
+  font-family: Arial,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  min-width: 1000px;
+  min-height: 100%;
+  height: auto ! important;
+}
+.header {
+  background: #0846bf none repeat scroll 0%;
+  height: 150px;
+}
+.content {
+  padding: 0 0 100px;
+}
+.footer {
+  margin: -100px auto 0;
+  background: #e22b03 none repeat scroll 0%;
+  min-width: 1000px;
+  height: 100px;
+  position: relative;
+}
